@@ -1,0 +1,25 @@
+{
+  "name": "q2e2i-simple-calculator",
+  "version": "1.0.2",
+  "description": "\"simple calculator\"",
+  "main": "index.js",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": {
+    "calculator": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aashra Saleem",
+  "license": "MIT",
+  "keywords": [],
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  },
+  "dependencies": {
+    "inquirer": "^9.2.16"
+  }
+}
